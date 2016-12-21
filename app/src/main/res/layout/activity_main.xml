@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
-        android:id="@+id/button"
+        android:id="@+id/buttonPlay"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"/>
 
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/buttonPlay"
         android:layout_centerHorizontal="true"/>
 
     <Button
@@ -53,5 +53,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
-        android:layout_alignStart="@+id/button"/>
+        android:layout_alignStart="@+id/buttonPlay"/>
 </RelativeLayout>
