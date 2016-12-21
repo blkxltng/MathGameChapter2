@@ -57,14 +57,20 @@
         android:textSize="40sp"/>
 
     <TextView
-        android:text="="
+        android:text="Score: 999"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        android:textSize="70sp"
-        android:layout_above="@+id/buttonChoice2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="18dp"/>
+        android:id="@+id/textScore"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textPartA"/>
+
+    <TextView
+        android:text="Level: 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/textPartB"
+        android:id="@+id/textLevel"/>
 
     <Button
         android:text="1"
@@ -72,7 +78,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/buttonChoice1"
         android:textSize="40sp"
-        android:layout_below="@+id/textPartA"
+        android:layout_above="@+id/textScore"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="156dp"/>
+        android:layout_marginBottom="127dp"/>
+
+    <TextView
+        android:text="="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="70sp"
+        android:layout_below="@+id/textOperator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"/>
 </RelativeLayout>
